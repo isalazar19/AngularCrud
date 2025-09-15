@@ -1,0 +1,16 @@
+1.- Se crea carpeta en la ruta seleccionada
+
+C:\AngularCrud>ng new FrontEndCrud
+? Would you like to add Angular routing? (y/N) N
+? Which stylesheet format would you like to use? (use arrow keys)
+>CSS
+ SCC [https://sass-lang.com/documentation/syntax#scss]
+…
+…
+CREATE FrontEndCrud/src/ main.ts
+…
+… 
+/ Installing packages (nmp). . .
+Packages installed successfully.
+
+C:\AngularCrud>
