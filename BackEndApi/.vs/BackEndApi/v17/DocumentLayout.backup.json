@@ -3,24 +3,28 @@
   "WorkspaceRootPath": "D:\\Sistemas\\AngularCrud\\BackEndApi\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{CF784B4D-4C55-43E3-BE11-A6BC0FC4EF47}|BackEndApi\\BackEndApi.csproj|d:\\sistemas\\angularcrud\\backendapi\\backendapi\\utilidades\\automapperprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF784B4D-4C55-43E3-BE11-A6BC0FC4EF47}|BackEndApi\\BackEndApi.csproj|solutionrelative:backendapi\\utilidades\\automapperprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{CF784B4D-4C55-43E3-BE11-A6BC0FC4EF47}|BackEndApi\\BackEndApi.csproj|d:\\sistemas\\angularcrud\\backendapi\\backendapi\\services\\implementacion\\empleadoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CF784B4D-4C55-43E3-BE11-A6BC0FC4EF47}|BackEndApi\\BackEndApi.csproj|solutionrelative:backendapi\\services\\implementacion\\empleadoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF784B4D-4C55-43E3-BE11-A6BC0FC4EF47}|BackEndApi\\BackEndApi.csproj|d:\\sistemas\\angularcrud\\backendapi\\backendapi\\dtos\\empleadodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF784B4D-4C55-43E3-BE11-A6BC0FC4EF47}|BackEndApi\\BackEndApi.csproj|solutionrelative:backendapi\\dtos\\empleadodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF784B4D-4C55-43E3-BE11-A6BC0FC4EF47}|BackEndApi\\BackEndApi.csproj|d:\\sistemas\\angularcrud\\backendapi\\backendapi\\models\\empleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF784B4D-4C55-43E3-BE11-A6BC0FC4EF47}|BackEndApi\\BackEndApi.csproj|solutionrelative:backendapi\\models\\empleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CF784B4D-4C55-43E3-BE11-A6BC0FC4EF47}|BackEndApi\\BackEndApi.csproj|d:\\sistemas\\angularcrud\\backendapi\\backendapi\\services\\contrato\\iempleadoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CF784B4D-4C55-43E3-BE11-A6BC0FC4EF47}|BackEndApi\\BackEndApi.csproj|solutionrelative:backendapi\\services\\contrato\\iempleadoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CF784B4D-4C55-43E3-BE11-A6BC0FC4EF47}|BackEndApi\\BackEndApi.csproj|d:\\sistemas\\angularcrud\\backendapi\\backendapi\\utilidades\\automapperprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CF784B4D-4C55-43E3-BE11-A6BC0FC4EF47}|BackEndApi\\BackEndApi.csproj|solutionrelative:backendapi\\utilidades\\automapperprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{CF784B4D-4C55-43E3-BE11-A6BC0FC4EF47}|BackEndApi\\BackEndApi.csproj|d:\\sistemas\\angularcrud\\backendapi\\backendapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CF784B4D-4C55-43E3-BE11-A6BC0FC4EF47}|BackEndApi\\BackEndApi.csproj|solutionrelative:backendapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CF784B4D-4C55-43E3-BE11-A6BC0FC4EF47}|BackEndApi\\BackEndApi.csproj|d:\\sistemas\\angularcrud\\backendapi\\backendapi\\models\\empleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CF784B4D-4C55-43E3-BE11-A6BC0FC4EF47}|BackEndApi\\BackEndApi.csproj|solutionrelative:backendapi\\models\\empleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CF784B4D-4C55-43E3-BE11-A6BC0FC4EF47}|BackEndApi\\BackEndApi.csproj|d:\\sistemas\\angularcrud\\backendapi\\backendapi\\models\\departamento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -42,7 +46,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
@@ -50,20 +54,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
+              "Title": "EmpleadoDTO.cs",
+              "DocumentMoniker": "D:\\Sistemas\\AngularCrud\\BackEndApi\\BackEndApi\\DTOs\\EmpleadoDTO.cs",
+              "RelativeDocumentMoniker": "BackEndApi\\DTOs\\EmpleadoDTO.cs",
+              "ToolTip": "D:\\Sistemas\\AngularCrud\\BackEndApi\\BackEndApi\\DTOs\\EmpleadoDTO.cs",
+              "RelativeToolTip": "BackEndApi\\DTOs\\EmpleadoDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-23T19:33:57.138Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "EmpleadoService.cs",
               "DocumentMoniker": "D:\\Sistemas\\AngularCrud\\BackEndApi\\BackEndApi\\Services\\Implementacion\\EmpleadoService.cs",
               "RelativeDocumentMoniker": "BackEndApi\\Services\\Implementacion\\EmpleadoService.cs",
               "ToolTip": "D:\\Sistemas\\AngularCrud\\BackEndApi\\BackEndApi\\Services\\Implementacion\\EmpleadoService.cs",
               "RelativeToolTip": "BackEndApi\\Services\\Implementacion\\EmpleadoService.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAAwCYAAAAiAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAADEAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-15T20:42:21.296Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Departamento.cs",
               "DocumentMoniker": "D:\\Sistemas\\AngularCrud\\BackEndApi\\BackEndApi\\Models\\Departamento.cs",
               "RelativeDocumentMoniker": "BackEndApi\\Models\\Departamento.cs",
@@ -75,7 +92,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Sistemas\\AngularCrud\\BackEndApi\\BackEndApi\\Program.cs",
               "RelativeDocumentMoniker": "BackEndApi\\Program.cs",
@@ -83,11 +100,12 @@
               "RelativeToolTip": "BackEndApi\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAD8AAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-08T19:55:41.474Z"
+              "WhenOpened": "2025-09-08T19:55:41.474Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "DepartamentoService.cs",
               "DocumentMoniker": "D:\\Sistemas\\AngularCrud\\BackEndApi\\BackEndApi\\Services\\Implementacion\\DepartamentoService.cs",
               "RelativeDocumentMoniker": "BackEndApi\\Services\\Implementacion\\DepartamentoService.cs",
@@ -99,7 +117,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "IEmpleadoService.cs",
               "DocumentMoniker": "D:\\Sistemas\\AngularCrud\\BackEndApi\\BackEndApi\\Services\\Contrato\\IEmpleadoService.cs",
               "RelativeDocumentMoniker": "BackEndApi\\Services\\Contrato\\IEmpleadoService.cs",
@@ -107,11 +125,12 @@
               "RelativeToolTip": "BackEndApi\\Services\\Contrato\\IEmpleadoService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-08T19:26:09.321Z"
+              "WhenOpened": "2025-09-08T19:26:09.321Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "IDepartamentoService.cs",
               "DocumentMoniker": "D:\\Sistemas\\AngularCrud\\BackEndApi\\BackEndApi\\Services\\Contrato\\IDepartamentoService.cs",
               "RelativeDocumentMoniker": "BackEndApi\\Services\\Contrato\\IDepartamentoService.cs",
@@ -123,27 +142,29 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "AutoMapperProfile.cs",
               "DocumentMoniker": "D:\\Sistemas\\AngularCrud\\BackEndApi\\BackEndApi\\Utilidades\\AutoMapperProfile.cs",
               "RelativeDocumentMoniker": "BackEndApi\\Utilidades\\AutoMapperProfile.cs",
-              "ToolTip": "D:\\Sistemas\\AngularCrud\\BackEndApi\\BackEndApi\\Utilidades\\AutoMapperProfile.cs",
-              "RelativeToolTip": "BackEndApi\\Utilidades\\AutoMapperProfile.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "ToolTip": "D:\\Sistemas\\AngularCrud\\BackEndApi\\BackEndApi\\Utilidades\\AutoMapperProfile.cs*",
+              "RelativeToolTip": "BackEndApi\\Utilidades\\AutoMapperProfile.cs*",
+              "ViewState": "AgIAAAoAAAAAAAAAAAA3wBAAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-08T20:21:32.206Z"
+              "WhenOpened": "2025-09-08T20:21:32.206Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "Empleado.cs",
               "DocumentMoniker": "D:\\Sistemas\\AngularCrud\\BackEndApi\\BackEndApi\\Models\\Empleado.cs",
               "RelativeDocumentMoniker": "BackEndApi\\Models\\Empleado.cs",
               "ToolTip": "D:\\Sistemas\\AngularCrud\\BackEndApi\\BackEndApi\\Models\\Empleado.cs",
               "RelativeToolTip": "BackEndApi\\Models\\Empleado.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAwAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-08T20:17:55.773Z"
+              "WhenOpened": "2025-09-08T20:17:55.773Z",
+              "EditorCaption": ""
             }
           ]
         }

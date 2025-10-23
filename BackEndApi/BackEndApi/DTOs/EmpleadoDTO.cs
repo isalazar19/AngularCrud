@@ -11,6 +11,6 @@
 
         public int? Sueldo { get; set; }
 
-        public string? FechaContrato { get; set; }
+        public DateTime? FechaContrato { get; set; }
     }
 }

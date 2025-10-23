@@ -1,6 +1,7 @@
 ﻿using AutoMapper;
 using BackEndApi.DTOs;
 using BackEndApi.Models;
+using Microsoft.IdentityModel.Tokens;
 using System.Globalization;
 
 namespace BackEndApi.Utilidades
@@ -14,25 +15,33 @@ namespace BackEndApi.Utilidades
             #endregion
 
             #region Empleado
-            CreateMap<Empleado, EmpleadoDTO>()
-                .ForMember(destino =>
-                destino.NombreDepartamento,
-                opt => opt.MapFrom(origen => origen.IdDepartamentoNavigation.Nombre)
-                )
-                .ForMember(destino =>
-                 destino.FechaContrato,
-                opt => opt.MapFrom(origen => origen.FechaContrato.Value.ToString("dd/MM/yyyy"))
-            );
+            //CreateMap<Empleado, EmpleadoDTO>()
+            //    .ForMember(destino => destino.NombreDepartamento,
+            //    opt => opt.MapFrom(origen => origen.IdDepartamentoNavigation.Nombre)
+            //    )
+            //    .ForMember(destino =>
+            //     destino.FechaContrato,
+            //    opt => opt.MapFrom(origen => origen.FechaContrato.Value.ToString("dd/MM/yyyy"))
+            //);
 
+            //CreateMap<EmpleadoDTO, Empleado>()
+            //    .ForMember(destino =>
+            //        destino.IdDepartamentoNavigation,
+            //        opt => opt.Ignore()
+            //    )
+            //    .ForMember(destino =>
+            //        destino.FechaContrato,
+            //        opt => opt.MapFrom(origen => DateTime.ParseExact(origen.FechaContrato, "dd/MM/yyyy", CultureInfo.InvariantCulture))
+            //    );
+            CreateMap<Empleado, EmpleadoDTO>()
+                .ForMember(destino => destino.NombreDepartamento,
+                           opt => opt.MapFrom(origen => origen.IdDepartamentoNavigation != null
+                                                         ? origen.IdDepartamentoNavigation.Nombre
+                                                         : string.Empty));
+
+            // EmpleadoDTO -> Empleado
             CreateMap<EmpleadoDTO, Empleado>()
-                .ForMember(destino =>
-                    destino.IdDepartamentoNavigation,
-                    opt => opt.Ignore()
-                )
-                .ForMember(destino =>
-                    destino.FechaContrato,
-                    opt => opt.MapFrom(origen => DateTime.ParseExact(origen.FechaContrato, "dd/MM/yyyy", CultureInfo.InvariantCulture))
-                );
+                .ForMember(destino => destino.IdDepartamentoNavigation, opt => opt.Ignore());
             #endregion
         }
 
