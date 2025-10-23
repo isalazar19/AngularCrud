@@ -33,7 +33,8 @@ namespace BackEndApi.Services.Implementacion
             {
                 Empleado? encontrado = new Empleado();
                 encontrado = await _dbContext.Empleados.Include(dpt => dpt.IdDepartamentoNavigation)
-                    .Where(e => encontrado.IdEmpleado == idEmpleado).FirstOrDefaultAsync();
+                    .FirstOrDefaultAsync(e => e.IdEmpleado == idEmpleado);
+                    //.Where(e => encontrado.IdEmpleado == idEmpleado).FirstOrDefaultAsync();
 
                 return encontrado;
             }

@@ -90,3 +90,4 @@ D:\Sistemas\AngularCrud\BackEndApi\BackEndApi\obj\Debug\net6.0\BackEndApi.genrun
 D:\Sistemas\AngularCrud\BackEndApi\BackEndApi\obj\Debug\net6.0\ref\BackEndApi.dll
 D:\Sistemas\AngularCrud\BackEndApi\BackEndApi\bin\Debug\net6.0\AutoMapper.dll
 D:\Sistemas\AngularCrud\BackEndApi\BackEndApi\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+D:\Sistemas\AngularCrud\BackEndApi\BackEndApi\obj\Debug\net6.0\BackEndApi.sourcelink.json
